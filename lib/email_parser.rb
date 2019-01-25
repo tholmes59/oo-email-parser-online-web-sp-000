@@ -12,8 +12,8 @@ class EmailParser
   end
   
   def parse
-    list = emails.split(%r{,\s*}) 
-    list.flatten
+    list = emails.split(/[ ,]+/) 
+    list
     
   end 
   
