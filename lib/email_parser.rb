@@ -21,9 +21,3 @@ class EmailParser
   
 end 
 
-def parse
-    list = emails.split(", ") || emails.split(" ")
-    list.join()
-    list.flatten
-    
-  end 
