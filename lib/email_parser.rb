@@ -12,7 +12,7 @@ class EmailParser
   end
   
   def parse
-    list = emails.split(%r{,\s*}{ \s*}) 
+    list = emails.split(%r{,\s*}{" "\s*}) 
     list.flatten
     
   end 
