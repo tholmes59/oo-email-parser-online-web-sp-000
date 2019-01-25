@@ -14,8 +14,8 @@ class EmailParser
   def parse
     email_list = []
     list = emails.split(" ") || emails.split(", ")
-    list.join(" , ").flatten
-    email_list << list
+    list.join(" , ")
+    list.flatten
     
   end 
   
