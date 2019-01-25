@@ -13,7 +13,8 @@ class EmailParser
   
   def parse
     list = emails.split(" , ") || emails.split("  ")
-    list.join.flatten
+    list.join
+    list.flatten
     
   end 
   
